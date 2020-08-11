@@ -14,7 +14,7 @@ namespace MyLinkedList
             linkedList.AddFirst(8);
             linkedList.AddFirst(9);
 
-            //linkedList.AddFirst(linkedList.Last);
+            
             Console.WriteLine(CirclularLinkedListValidator.IsCircular(linkedList));
             Console.Read();
         }

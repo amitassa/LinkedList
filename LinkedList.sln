@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "LinkedList\LinkedList.csproj", "{E66D2CE2-294D-4C73-A4ED-D3493451FE65}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLinkedList", "MyLinkedList\MyLinkedList.csproj", "{3C3841D6-ED51-4576-BDCF-9E21967EBA2D}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E66D2CE2-294D-4C73-A4ED-D3493451FE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E66D2CE2-294D-4C73-A4ED-D3493451FE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E66D2CE2-294D-4C73-A4ED-D3493451FE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E66D2CE2-294D-4C73-A4ED-D3493451FE65}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3C3841D6-ED51-4576-BDCF-9E21967EBA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3C3841D6-ED51-4576-BDCF-9E21967EBA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C3841D6-ED51-4576-BDCF-9E21967EBA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
