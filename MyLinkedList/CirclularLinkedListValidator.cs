@@ -18,7 +18,7 @@ namespace MyLinkedList
                 return false;
             LinkedListNode<T> nodePosition1 = linkedList.First;
             LinkedListNode<T> nodePosition2 = linkedList.First;
-            while (nodePosition2 == null & nodePosition1 == null)
+            while (nodePosition2 != null & nodePosition1 != null)
             {
                 try
                 {
