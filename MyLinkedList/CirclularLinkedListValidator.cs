@@ -14,24 +14,28 @@ namespace MyLinkedList
         /// <returns></returns>
         public static bool IsCircular<T>(LinkedList<T> linkedList)
         {
-            if (linkedList.Count == 0)
+            if (linkedList.First == null)
                 return false;
-            //
-            LinkedList<T> linkedListDuplicate = new LinkedList<T>(linkedList);
-            LinkedList<T> linkedListBackup = new LinkedList<T>(linkedList);
-            while (linkedListBackup.Count != 0)
+            LinkedListNode<T> nodePosition1 = linkedList.First;
+            LinkedListNode<T> nodePosition2 = linkedList.First;
+            while (nodePosition2 == null & nodePosition1 == null)
             {
-                while (linkedListDuplicate.Count != 0)
+                try
                 {
-                    if (linkedListDuplicate.First == linkedListBackup.First)
+                    nodePosition1 = nodePosition1.Next;
+                    nodePosition1 = nodePosition2.Next.Next;
+                    if (nodePosition1 == nodePosition2)
                         return true;
-                    linkedListDuplicate.RemoveFirst();
                 }
-                linkedListDuplicate = new LinkedList<T>(linkedList);
-                linkedListBackup.RemoveFirst();
+                catch
+
+                {
+                    return false;
+                }
             }
             return false;
 
         }
+
     }
 }
