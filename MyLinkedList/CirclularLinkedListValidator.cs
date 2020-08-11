@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LinkedList
+namespace MyLinkedList
 {
     public static class CirclularLinkedListValidator 
     {
@@ -13,7 +13,7 @@ namespace LinkedList
             LinkedList<T> linkedListBackup = new LinkedList<T>(linkedList);
             while (linkedListBackup.Count != 0)
             {
-                while (linkedListDuplicate.Count == 0)
+                while (linkedListDuplicate.Count != 0)
                 {
                     if (linkedListDuplicate.First == linkedListBackup.First)
                         return true;

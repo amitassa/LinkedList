@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\moshe\\.nuget\\packages\\": {}
+    "C:\\Users\\thelittlecitizen13\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moshe\\Downloads\\LinkedList - Students\\LinkedList\\LinkedList.csproj",
+      "projectUniqueName": "C:\\Code\\LinkedList\\LinkedList\\LinkedList.csproj",
       "projectName": "LinkedList",
-      "projectPath": "C:\\Users\\moshe\\Downloads\\LinkedList - Students\\LinkedList\\LinkedList.csproj",
-      "packagesPath": "C:\\Users\\moshe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moshe\\Downloads\\LinkedList - Students\\LinkedList\\obj\\",
+      "projectPath": "C:\\Code\\LinkedList\\LinkedList\\LinkedList.csproj",
+      "packagesPath": "C:\\Users\\thelittlecitizen13\\.nuget\\packages\\",
+      "outputPath": "C:\\Code\\LinkedList\\LinkedList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\moshe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thelittlecitizen13\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
